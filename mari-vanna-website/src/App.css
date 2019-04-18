@@ -1,4 +1,6 @@
 /* ======== styling for Info component ======== */
+@import url('https://fonts.googleapis.com/css?family=Lato:300');
+
 .info__container {
   width: 100%;
   display: flex;
@@ -17,15 +19,16 @@
 .info__text-left {
   font-size: 18px;
   margin: 49px;
+  font-family: 'Lato', sans-serif;
 }
 
 .info__text {
-  width: 721px;
+  width: 50%;
   height: 476px;
 }
 
 .info__doll-image,
 .info__storefront-image {
-  width: 721px;
+  width: 50%;
   height: 476px;
 }
