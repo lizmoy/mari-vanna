@@ -1,0 +1,22 @@
+import React from 'react'
+import Header from './Header.js'
+import MenuNav from './MenuNav.js'
+import Lunch from './Lunch.js'
+import Dinner from './Dinner.js'
+import Drinks from './Drinks.js'
+import Footer from './Footer.js'
+
+const MenuPage = () => {
+    return (
+      <div>
+        <Header />
+        <MenuNav />
+        <Lunch />
+        <Dinner />
+        <Drinks />
+        <Footer />
+      </div>
+    )
+}
+
+export default MenuPage
