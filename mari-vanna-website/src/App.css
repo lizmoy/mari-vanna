@@ -2,17 +2,17 @@
 	
 
 .career--banner{
-  width: 1439px;
+  width: 100%;
   height: 421px;
   margin-bottom: 6%;
 }
 
 
-.career--careerOportunitiesTitle{
+.career--careerOportunitiesTitle {
   width: 544px;
   height: 61px;
-  font-family: AvenirNext;
-  font-size: 45px;
+  font-family: 'Lato', sans-serif;
+  font-size: 30px;
   font-weight: 600;
   font-style: normal;
   font-stretch: normal;
@@ -28,8 +28,8 @@
 .career--careerOportunitiesParagraph{
   width: 1287px;
   height: 54px;
-  font-family: AvenirNext;
-  font-size: 20px;
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
   font-weight: normal;
   font-style: normal;
   font-stretch: normal;
@@ -39,11 +39,12 @@
   text-align: center;
   margin-left: 5%;
   margin-top: 6%;
+}
   
 @import url('https://fonts.googleapis.com/css?family=Lato:300');
 @import url("https://p.typekit.net/p.css?s=1&k=gsw5tei&ht=tk&f=5624.5626.5736.5738.5661.5663&a=9521813&app=typekit&e=css");
 
-
+/* ===== Info ===== */
 
 .info__container {
   width: 100%;
@@ -232,7 +233,78 @@ a {
   margin-top: -5px;
 }
 
+/* ===== Lunch ===== */
+.lunchpage__container {
+  display: flex;
+  flex-direction: column;
+}
 
+.lunchpage__image {
+  width: 100%;
+}
+
+.lunchpage__title {
+  font-family: 'Lato', sans-serif;
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: bolder;
+  margin: 40px;
+  text-align: center;
+}
+
+.lunchpage__subtitle {
+  font-family: 'Lato', sans-serif;
+  font-size: 19px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color:#ed5452;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.lunchpage__menu {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  margin-bottom: 120px;
+  margin-left: 90px;
+  margin-right: 90px;
+}
+
+.lunchpage__menu-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 10px;
+  margin-bottom: 20px;
+}
+
+.lunchpage__menu-bold {
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 3px;
+}
+
+.lunchpage__menu-item-text {
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+  margin: 0;
+} 
+
+.lunchpage__salads,
+.lunchpage__appetizers,
+.lunchpage__soups,
+.lunchpage__entrees {
+  margin-top: 30px;
+  margin-bottom: 35px;
+}
+
+.lunchpage__line-break {
+  width: 80%;
+  text-align: center;
+  color: black;
+}
 
 /* Footer */
 
