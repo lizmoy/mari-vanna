@@ -1,3 +1,37 @@
+/* ======== styling for Info component ======== */
+@import url('https://fonts.googleapis.com/css?family=Lato:300');
+
+.info__container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.info__top-row {
+  display: flex;
+}
+
+.info__bottom-row {
+  display: flex;
+}
+
+.info__text-right,
+.info__text-left {
+  font-size: 18px;
+  margin: 49px;
+  font-family: 'Lato', sans-serif;
+}
+
+.info__text {
+  width: 50%;
+  height: 476px;
+}
+
+.info__doll-image,
+.info__storefront-image {
+  width: 50%;
+  height: 476px;
+
 /* HEADER  */
 
 @import url("https://p.typekit.net/p.css?s=1&k=gsw5tei&ht=tk&f=5624.5626.5736.5738.5661.5663&a=9521813&app=typekit&e=css");
