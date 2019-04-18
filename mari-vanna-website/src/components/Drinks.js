@@ -14,6 +14,7 @@ export class Drinks extends Component {
 
                 <div className='drinks--alcoholicDrinks'>
 
+
                     <h4 className='drinks--vodkaMenu'>HOUSE INFUSED VODKA</h4>
                     <p className='drinks--vodkaDescription'>Proudly Infused with Russian Standard Vodka</p>
                     <div className='drinks--vodkaAllItems'>
@@ -41,6 +42,7 @@ export class Drinks extends Component {
                             <li>Flight of 10 Shots $90</li>
                         </ul>
                     </div>
+
 
                 </div>
 
