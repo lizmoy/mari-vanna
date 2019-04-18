@@ -1,12 +1,10 @@
 /* Career-Component */
 	
-
 .career--banner{
   width: 100%;
   height: 421px;
   margin-bottom: 6%;
 }
-
 
 .career--careerOportunitiesTitle {
   width: 544px;
@@ -23,7 +21,6 @@
   display: inline;
   margin-left: 33%;
 }
-
 
 .career--careerOportunitiesParagraph{
   width: 1287px;
@@ -58,6 +55,7 @@
   width: 1439.7px;
   height: 421px;
 }
+
 .drinks--mainTitle{
   width: 169px;
   height: 61px;
@@ -76,11 +74,9 @@
   display: flex;
 }
 
-
 .info__bottom-row {
   display: flex;
 }
-
 
 .info__text-right,
 .info__text-left {
@@ -89,19 +85,16 @@
   font-family: 'Lato', sans-serif;
 }
 
-
 .info__text {
   width: 50%;
   height: 476px;
 }
-
 
 .info__doll-image,
 .info__storefront-image {
   width: 50%;
   height: 476px;
 }
-
 
 /* HEADER  */
 
@@ -117,20 +110,17 @@
   font-family: 'p22-underground', sans-serif;
 }
 
-
 .header__title {
   letter-spacing: 10px;
   margin-left: 40px;
 }
-
 
 .header__navbar {
   display: flex;
   margin-right: 45px;
 }
 
-
-a {
+.header__atag {
   text-decoration: none;
   color: #ffffff;
   margin: 0 25px;
@@ -181,7 +171,6 @@ a {
 
 /* ICON BAR */
 
-
 .iconbar {
   font-size: 14px;
   height: 211px;
@@ -191,13 +180,11 @@ a {
   text-align: center;
 }
 
-
 .iconbar__address--div {
   border: solid 1px rgba(189, 188, 188, 0.49);
   width: 100%;
   padding-top: 32px;
  }
-
 
 .iconbar__hours--div {
   border: solid 1px rgba(189, 188, 188, 0.49);
@@ -205,13 +192,11 @@ a {
   padding-top: 42px;
 }
 
-
 .iconbar__contact--div {
   border: solid 1px rgba(189, 188, 188, 0.49);
   width: 100%;
   padding-top: 42px;
 }
-
 
 .iconbar__check--div {
   border: solid 1px rgba(189, 188, 188, 0.49);
@@ -219,13 +204,11 @@ a {
   padding-top: 42px;
 }
 
-
 .iconbar__h3 {
   font-family: 'p22-underground', sans-serif;
   letter-spacing: 1px;
   margin-top: 18px;
 }
-
 
 .iconbar__text {
   font-style: italic;
@@ -238,6 +221,7 @@ a {
 .menunav {
   position: relative;
   width: 100%;
+}
 
 #menunav__img--lunch {
   width: 100%;
@@ -453,7 +437,7 @@ a {
     font-family: 'p22-underground', sans-serif;
     margin-left: -30px;
     font-size: 5px;
-  }
+}
 
 a { 
   text-decoration: none;

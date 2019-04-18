@@ -15,9 +15,9 @@ class App extends Component {
     return (
       <div className="App">
         <Header />
+        <IconBar />
         <Info/>
         <MenuNav />
-        <IconBar />
         <Lunch/>
         <Drinks />
         <Dessert/>
