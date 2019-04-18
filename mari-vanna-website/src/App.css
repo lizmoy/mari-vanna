@@ -155,13 +155,18 @@ a {
 
 .menunav {
   position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 #menunav__img--lunch {
   width: 100%;
   position: absolute;
-  opacity: 0;
   pointer-events: none;
+  left: 0;
+  top: 0;
+  z-index: -1;
 }
 
 #menunav__img--dinner {
@@ -169,6 +174,9 @@ a {
   position: absolute;
   opacity: 0;
   pointer-events: none;
+  left: 0;
+  top: 0;
+  z-index: -1;
 }
 
 #menunav__img--dessert {
@@ -176,6 +184,9 @@ a {
   position: absolute;
   opacity: 0;
   pointer-events: none;
+  left: 0;
+  top: 0;
+  z-index: -1;
 }
 
 #menunav__img--drinks {
@@ -183,17 +194,9 @@ a {
   position: absolute;
   opacity: 0;
   pointer-events: none;
-}
-
-.menunav__text {
-  top: 13%;
-  position: absolute;
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  font-family: 'p22-underground', sans-serif;
-  font-size: 50px;
-  width: 30%;
+  left: 0;
+  top: 0;
+  z-index: -1;
 }
 
 .menunav__lunch {
@@ -201,6 +204,13 @@ a {
   height: 8%;
   color: black;
   margin-bottom: 30px;
+  text-align: center;
+  font-family: 'p22-underground', sans-serif;
+  font-size: 50px;
+  flex: 1;
+  width: 30%;
+  margin-top: 10%;
+  margin-left: 35%;
 }
 
 .menunav__lunch:hover {
@@ -208,15 +218,17 @@ a {
   color: white;
 }
 
-.menunav__lunch:hover + #menunav__img--lunch {
-  opacity: 100;
-}
-
 .menunav__dinner {
   border: 5px solid black;
   height: 8%;
   color: black;
   margin-bottom: 30px;
+  text-align: center;
+  font-family: 'p22-underground', sans-serif;
+  font-size: 50px;
+  flex: 2;
+  width: 30%;
+  margin-left: 35%;
 }
 
 .menunav__dinner:hover {
@@ -233,6 +245,12 @@ a {
   height: 8%;
   color: black;
   margin-bottom: 30px;
+  text-align: center;
+  font-family: 'p22-underground', sans-serif;
+  font-size: 50px;
+  flex: 3;
+  width: 30%;
+  margin-left: 35%;
 }
 
 .menunav__dessert:hover {
@@ -248,6 +266,12 @@ a {
   border: 5px solid black;
   height: 8%;
   color: black;
+  text-align: center;
+  font-family: 'p22-underground', sans-serif;
+  font-size: 50px;
+  flex: 4;
+  width: 30%;
+  margin-left: 35%;
 }
 
 .menunav__drinks:hover {
