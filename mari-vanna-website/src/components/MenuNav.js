@@ -1,9 +1,8 @@
 import React, { Component } from 'react'
-
-import Lunch from '../images/menunav pics/lunch.jpg'
-import Dinner from '../images/menunav pics/dinner.jpg'
-import Dessert from '../images/menunav pics/dessert.jpg'
-import Drinks from '../images/menunav pics/drinks.jpg'
+import Lunch from '../images/menunav-pics/lunch.jpg'
+import Dinner from '../images/menunav-pics/dinner.jpg'
+import Dessert from '../images/menunav-pics/dessert.jpg'
+import Drinks from '../images/menunav-pics/drinks.jpg'
 
 class MenuNav extends Component {
   render() {
