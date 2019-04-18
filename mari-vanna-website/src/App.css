@@ -257,12 +257,14 @@ a {
   flex-direction: column;
   justify-content: center;
   margin: 10px;
+  margin-bottom: 20px;
 }
 
 .lunchpage__menu-bold {
   font-family: 'Lato', sans-serif;
   font-size: 18px;
   font-weight: bold;
+  margin-bottom: 3px;
 }
 
 .lunchpage__menu-item-text {
