@@ -157,9 +157,32 @@ a {
   position: relative;
 }
 
-.menunav__img {
+#menunav__img--lunch {
   width: 100%;
-  position: relative;
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
+}
+
+#menunav__img--dinner {
+  width: 100%;
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
+}
+
+#menunav__img--dessert {
+  width: 100%;
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
+}
+
+#menunav__img--drinks {
+  width: 100%;
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
 }
 
 .menunav__text {
@@ -185,6 +208,10 @@ a {
   color: white;
 }
 
+.menunav__lunch:hover + #menunav__img--lunch {
+  opacity: 100;
+}
+
 .menunav__dinner {
   border: 5px solid black;
   height: 8%;
@@ -193,8 +220,12 @@ a {
 }
 
 .menunav__dinner:hover {
-  border: 5px solid white;
+  border: 5px solid #ffffff;
   color: white;
+}
+
+.menunav__dinner:hover + #menunav__img--dinner {
+  opacity: 100;
 }
 
 .menunav__dessert {
@@ -209,6 +240,10 @@ a {
   color: white;
 }
 
+.menunav__dessert:hover + #menunav__img--dessert {
+  opacity: 100;
+}
+
 .menunav__drinks {
   border: 5px solid black;
   height: 8%;
@@ -218,4 +253,8 @@ a {
 .menunav__drinks:hover {
   border: 5px solid white;
   color: white;
+}
+
+.menunav__drinks:hover + #menunav__img--drinks {
+  opacity: 100;
 }

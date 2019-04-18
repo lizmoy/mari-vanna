@@ -9,12 +9,15 @@ class MenuNav extends Component {
   render() {
     return (
       <div className="menunav">
-        <img className="menunav__img" src={Lunch} />
         <div className="menunav__text">
             <a className="menunav__lunch" href='#'>LUNCH</a>
+            <img id="menunav__img--lunch" src={Lunch} />
             <a className="menunav__dinner" href='#'>DINNER</a>
+            <img id="menunav__img--dinner" src={Dinner} />
             <a className="menunav__dessert" href='#'>DESSERT</a>
+            <img id="menunav__img--dessert" src={Dessert} />
             <a className="menunav__drinks" href='#'>DRINKS</a>
+            <img id="menunav__img--drinks" src={Drinks} />
         </div>
       </div>
     )
