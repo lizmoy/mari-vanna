@@ -230,12 +230,14 @@
 .header__navbar {
   display: flex;
   margin-right: 45px;
+  font-size: 18px;
+  letter-spacing: 1px;
 }
 
 .header__atag {
-  text-decoration: none;
   color: #ffffff;
   margin: 0 25px;
+  font-weight: normal;
 }
 
 /* ======== Dessert ========= */
