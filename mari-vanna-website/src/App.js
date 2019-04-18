@@ -14,7 +14,6 @@ class App extends Component {
         <Header />
         <Info/>
         <IconBar />
-        <Info />
         <Dessert/>
         <Careers />
         <Footer />
