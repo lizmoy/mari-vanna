@@ -67,6 +67,38 @@ function Lunch() {
                         <p className="lunchpage__menu-item-text">Chicken Broth with Sorrel, Roasted Chicken, Roasted Carrots and Onions, Potatoes, Poached Egg, Scallions and Dill. Served with Croutons on the Side.</p>
                     </div>
                 </div>
+                <div className="lunchpage__entrees">
+                    <div className="lunchpage__subtitle">Entrees</div>
+                    <div className="lunchpage__menu-item"><span className="lunchpage__menu-bold">Potatoes with Mushrooms and Onions $21</span>
+                        <p className="lunchpage__menu-item-text">– Russian Style Potatoes with Oyster Mushrooms</p>
+                    </div>
+                    <div className="lunchpage__menu-item"><span className="lunchpage__menu-bold">Traditional Chicken Kiev $28</span>
+                        <p className="lunchpage__menu-item-text">Stuffed with Herb Butter, Served with Mashed Potatoes</p>
+                    </div>
+                    <div className="lunchpage__menu-item"><span className="lunchpage__menu-bold">Chicken Kotletki $26</span>
+                        <p className="lunchpage__menu-item-text">Organic Free-Range Chicken Patties, Served with Mashed Potatoes and Garnished with Pickled Cucumber</p>
+                    </div>
+                    <div className="lunchpage__menu-item"><span className="lunchpage__menu-bold">Veal Pelmeni $20</span>
+                        <p className="lunchpage__menu-item-text">Traditional Russian Handmade Dumplings in Light Herb Butter, Served Boiled or in Chicken Broth</p>
+                    </div>
+                    <div className="lunchpage__menu-item"><span className="lunchpage__menu-bold">Siberian Pelmeni $20</span>
+                        <p className="lunchpage__menu-item-text">Pork and Beef Stuffing, Traditional Russian Handmade Dumplings in Light Herb Butter, Served Boiled or in Chicken Broth</p>
+                    </div>
+                    <div className="lunchpage__menu-item"><span className="lunchpage__menu-bold">Potato Vareniki $20</span>
+                        <p className="lunchpage__menu-item-text">Traditional Handmade Potato Dumplings with Caramelized Onions</p>
+                    </div>
+                    <div className="lunchpage__menu-item"><span className="lunchpage__menu-bold">Salmon Kebab $27</span>
+                        <p className="lunchpage__menu-item-text">Served with Stuffed Grape Leaves and Lemon</p>
+                    </div>
+                    <div className="lunchpage__menu-item"><span className="lunchpage__menu-bold">Chicken Shashlik $26</span>
+                        <p className="lunchpage__menu-item-text">Served with Fresh Vegetable Salad, Dressed with Mayonnaise</p>
+                    </div>
+                    <div className="lunchpage__menu-item"><span className="lunchpage__menu-bold">Chicken Stroganoff $24</span>
+                        <p className="lunchpage__menu-item-text">Sliced Chicken Fillet in Creamy Sauce,Served with Buckwheat or Mashed Potatoes</p>
+                    </div>
+                    <div className="lunchpage__menu-item"><span className="lunchpage__menu-bold">Sunny-Side Up Eggs with Ground Beef and Pelati Tomatoes</span></div>
+                    <div className="lunchpage__menu-item"><span className="lunchpage__menu-bold">Sunny-Side Up Eggs with Heavy Cream, Spinach and Parmesan Cheese</span></div>
+                </div>
             </div>
         </div>
     )
