@@ -14,36 +14,39 @@ export class Drinks extends Component {
 
                 <div className='drinks--alcoholicDrinks'>
 
-                    <h4 className='drinks--vodkaMenu-'>HOUSE INFUSED VODKA</h4>
-                    <p classname='drinks--vodkaDescription'>Proudly Infused with Russian Standard Vodka</p>
-                    <ul className='drinks--vodkaFlavors1'>
-                        <li>Apricot</li>
-                        <li>Black Currant</li>
-                        <li>Cherry</li>
-                        <li>Cranberry</li>
-                        <li>Cucumber and Dill</li>
-                    </ul>
-                    <ul className='drinks--vodkaFlavors2'>
-                        <li>Horseradish</li>
-                        <li>Pear and Vanilla</li>
-                        <li>Pepper and Honey</li>
-                        <li>Pickle and Garlic</li>
-                        <li>Strawberry</li>
-                    </ul>
-                    <ul className='drinks-vodkaPrices'>
-                        <li>Carafe 300ml $60</li>
-                        <li>Carafe 500ml $100</li>
-                        <li>Shot $11</li>
-                    </ul>
-                    <ul className='drinks--vodkaFlights'>
-                        <li>Flight of 5 Shots $50</li>
-                        <li>Flight of 10 Shots $90</li>
-                    </ul>
+                    <h4 className='drinks--vodkaMenu'>HOUSE INFUSED VODKA</h4>
+                    <p className='drinks--vodkaDescription'>Proudly Infused with Russian Standard Vodka</p>
+                    <div className='drinks--vodkaAllItems'>
+                        <ul className='drinks--vodkaFlavors1'>
+                            <li>Apricot</li>
+                            <li>Black Currant</li>
+                            <li>Cherry</li>
+                            <li>Cranberry</li>
+                            <li>Cucumber and Dill</li>
+                        </ul>
+                        <ul className='drinks--vodkaFlavors2'>
+                            <li>Horseradish</li>
+                            <li>Pear and Vanilla</li>
+                            <li>Pepper and Honey</li>
+                            <li>Pickle and Garlic</li>
+                            <li>Strawberry</li>
+                        </ul>
+                        <ul className='drinks-vodkaPrices'>
+                            <li>Carafe 300ml $60</li>
+                            <li>Carafe 500ml $100</li>
+                            <li>Shot $11</li>
+                        </ul>
+                        <ul className='drinks--vodkaFlights'>
+                            <li>Flight of 5 Shots $50</li>
+                            <li>Flight of 10 Shots $90</li>
+                        </ul>
+                    </div>
 
                 </div>
 
-                <div className='drinks--nonAlcoholicDrinks'>
-                    <ul>
+                <div className='drinks--nonAlcoholicDrinks--mainContainer'>
+                    <h4 className='drinks--nonAlcoholicDrinks--title'>NON ALCOHOLIC DRINKS</h4>
+                    <ul className='drinks--nonAlcoholicDrinks--items'>
                         <li>Glass of Tea $4</li>
                         <li>Cranberry Mors Homemade Berry Punch $5</li>
                         <li>Kvas Russian style Root Beer $5</li>
@@ -55,7 +58,6 @@ export class Drinks extends Component {
                         <li>Double Espresso $6</li>
                         <li>Cappuccino $6</li>
                         <li>Grand Tea Pot  $14</li>
-
                     </ul>
 
                 </div>
