@@ -10,13 +10,13 @@ class MenuNav extends Component {
     return (
       <div className="menunav">
         <a className="menunav__lunch" href='#'>LUNCH</a>
-        <img id="menunav__img--lunch" src={Lunch} />
+        <img id="menunav__img--lunch" alt="lunch menu" src={Lunch} />
         <a className="menunav__dinner" href='#'>DINNER</a>
-        <img id="menunav__img--dinner" src={Dinner} />
+        <img id="menunav__img--dinner" alt="dinner menu" src={Dinner} />
         <a className="menunav__dessert" href='#'>DESSERT</a>
-        <img id="menunav__img--dessert" src={Dessert} />
+        <img id="menunav__img--dessert" alt="dessert menu" src={Dessert} />
         <a className="menunav__drinks" href='#'>DRINKS</a>
-        <img id="menunav__img--drinks" src={Drinks} />
+        <img id="menunav__img--drinks" alt="drinks menu" src={Drinks} />
       </div>
     )
   }

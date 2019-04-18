@@ -13,10 +13,10 @@ export default () => {
                 infiniteLoop={true}
                 interval={3000}
                 showThumbs={false}>
-                <div className="gallery__image"><img src={home1}/></div>
-                <div className="gallery__image"><img src={home2}/></div>
-                <div className="gallery__image"><img src={home3}/></div>
-                <div className="gallery__image"><img src={home4}/></div>
+                <div className="gallery__image"><img src={home1} alt="gallery" /></div>
+                <div className="gallery__image"><img src={home2} alt="gallery" /></div>
+                <div className="gallery__image"><img src={home3} alt="gallery" /></div>
+                <div className="gallery__image"><img src={home4} alt="gallery" /></div>
             </Carousel>
         </div>
     )
