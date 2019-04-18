@@ -1,5 +1,3 @@
-
-
 /* Career-Component */
 
 .career--banner{
@@ -22,9 +20,6 @@
   color: var(--black);
   display: inline;
   margin-left: 33%;
-  
-  
-  
 }
 
 .career--careerOportunitiesParagraph{
@@ -42,13 +37,67 @@
   margin-left: 5%;
   margin-top: 6%;
   
+@import url('https://fonts.googleapis.com/css?family=Lato:300');
+
+.info__container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.info__top-row {
+  display: flex;
+}
+
+.info__bottom-row {
+  display: flex;
+}
+
+.info__text-right,
+.info__text-left {
+  font-size: 18px;
+  margin: 49px;
+  font-family: 'Lato', sans-serif;
+}
+
+.info__text {
+  width: 50%;
+  height: 476px;
+}
+
+.info__doll-image,
+.info__storefront-image {
+  width: 50%;
+  height: 476px;
+
+/* HEADER  */
+
+@import url("https://p.typekit.net/p.css?s=1&k=gsw5tei&ht=tk&f=5624.5626.5736.5738.5661.5663&a=9521813&app=typekit&e=css");
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #ee343c;
+  color: #ffffff;
+  height: 80px;
+  line-height: 80px;
+  font-size: 22px;
+  vertical-align: center;
+  font-family: 'p22-underground', sans-serif;
+}
+
+.header__title {
+  letter-spacing: 10px;
+  margin-left: 40px;
+}
+
+.header__navbar {
+  display: flex;
+  margin-right: 45px;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+  margin: 0 25px;
 }
