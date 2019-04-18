@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import Careers from './components/Careers'
+import Drinks from './components/Drinks'
 import Info from './components/Info'
 import Header from './components/Header.js'
 import Dessert from './components/Dessert';
@@ -15,6 +16,7 @@ class App extends Component {
         <Info/>
         <IconBar />
         <Info />
+        <Drinks />
         <Dessert/>
         <Careers />
         <Footer />
