@@ -15,7 +15,7 @@ export class Drinks extends Component {
                 <div className='drinks--alcoholicDrinks'>
 
                     <h4 className='drinks--vodkaMenu-'>HOUSE INFUSED VODKA</h4>
-                    <p classname='drinks--vodkaDescription'>Proudly Infused with Russian Standard Vodka</p>
+                    <p className='drinks--vodkaDescription'>Proudly Infused with Russian Standard Vodka</p>
                     <ul className='drinks--vodkaFlavors1'>
                         <li>Apricot</li>
                         <li>Black Currant</li>
