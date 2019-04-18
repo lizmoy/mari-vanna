@@ -1,11 +1,10 @@
-import React, { Component } from 'react'
+import React from 'react'
 import Lunch from '../images/menunav-pics/lunch.jpg'
 import Dinner from '../images/menunav-pics/dinner.jpg'
 import Dessert from '../images/menunav-pics/dessert.jpg'
 import Drinks from '../images/menunav-pics/drinks.jpg'
 
-class MenuNav extends Component {
-  render() {
+const MenuNav = () => {
     return (
       <div className="menunav">
         <a className="menunav__lunch" href='#'>LUNCH</a>
@@ -18,7 +17,6 @@ class MenuNav extends Component {
         <img id="menunav__img--drinks" alt="drinks menu" src={Drinks} />
       </div>
     )
-  }
 }
 
 export default MenuNav
