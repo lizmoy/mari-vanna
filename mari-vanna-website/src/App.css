@@ -1,3 +1,75 @@
+/* Career-Component */
+
+.career--banner{
+  width: 1439px;
+  height: 421px;
+  margin-bottom: 6%;
+}
+
+.career--careerOportunitiesTitle{
+  width: 544px;
+  height: 61px;
+  font-family: AvenirNext;
+  font-size: 45px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.1px;
+  text-align: center;
+  color: var(--black);
+  display: inline;
+  margin-left: 33%;
+}
+
+.career--careerOportunitiesParagraph{
+  width: 1287px;
+  height: 54px;
+  font-family: AvenirNext;
+  font-size: 20px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 2.4px;
+  color: var(--black);
+  text-align: center;
+  margin-left: 5%;
+  margin-top: 6%;
+  
+@import url('https://fonts.googleapis.com/css?family=Lato:300');
+
+.info__container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.info__top-row {
+  display: flex;
+}
+
+.info__bottom-row {
+  display: flex;
+}
+
+.info__text-right,
+.info__text-left {
+  font-size: 18px;
+  margin: 49px;
+  font-family: 'Lato', sans-serif;
+}
+
+.info__text {
+  width: 50%;
+  height: 476px;
+}
+
+.info__doll-image,
+.info__storefront-image {
+  width: 50%;
+  height: 476px;
+
 /* HEADER  */
 
 @import url("https://p.typekit.net/p.css?s=1&k=gsw5tei&ht=tk&f=5624.5626.5736.5738.5661.5663&a=9521813&app=typekit&e=css");
