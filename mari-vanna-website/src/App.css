@@ -216,6 +216,64 @@
   margin-top: -5px;
 }
 
+/* Dinner page */
+
+.dinnerpage__container {
+  display: flex;
+  flex-direction: column;
+}
+
+.dinnerpage__image {
+  width: 100%;
+}
+
+.dinnerpage__menu {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  margin-bottom: 120px;
+}
+
+.dinnerpage__title {
+  font-family: 'Lato', sans-serif;
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: bolder;
+  margin: 40px;
+  text-align: center;
+}
+
+.dinnerpage__menu-item {
+  margin: 5px;
+}
+
+.dinnerpage__menu-item-title {
+  font-family: 'Lato', sans-serif;
+  font-size: 30px;
+  font-weight: bolder;
+  margin: 40px;
+  text-align: center;
+  color: #ee343c;
+}
+
+.dinnerpage__menu-item-bold {
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.dinnerpage__menu-item-text {
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+  margin-left: 5px;
+} 
+
+.dinnerpage__line-break {
+  width: 80%;
+  text-align: center;
+  color: black;
+}
+
 /* MENU NAV */
 
 .menunav {
@@ -431,13 +489,13 @@
 
 .footer__navbar {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: left;
     vertical-align: center;
     list-style: none;
     font-family: 'p22-underground', sans-serif;
-    margin-left: -30px;
-    font-size: 5px;
-}
+    margin-left: -20px;
+    font-size: 10px;
+  }
 
 a { 
   text-decoration: none;
