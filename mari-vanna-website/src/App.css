@@ -224,13 +224,6 @@ a {
   width: 100%;
 }
 
-.lunchpage__menu {
-  display: flex;
-  flex-direction: column;
-  align-self: center;
-  margin-bottom: 120px;
-}
-
 .lunchpage__title {
   font-family: 'Lato', sans-serif;
   font-size: 30px;
@@ -242,17 +235,31 @@ a {
 
 .lunchpage__subtitle {
   font-family: 'Lato', sans-serif;
-  font-size: 20px;
+  font-size: 19px;
+  font-weight: bold;
   text-transform: uppercase;
   color:#ed5452;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.lunchpage__menu {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  margin-bottom: 120px;
+  margin-left: 90px;
+  margin-right: 90px;
 }
 
 .lunchpage__menu-item {
   display: flex;
-  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  margin: 10px;
 }
 
-.lunchpage__menu-item-bold {
+.lunchpage__menu-bold {
   font-family: 'Lato', sans-serif;
   font-size: 18px;
   font-weight: bold;
@@ -261,7 +268,7 @@ a {
 .lunchpage__menu-item-text {
   font-family: 'Lato', sans-serif;
   font-size: 18px;
-  margin-left: 5px;
+  margin: 0;
 } 
 
 /* Footer */
