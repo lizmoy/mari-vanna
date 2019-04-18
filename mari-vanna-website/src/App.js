@@ -17,6 +17,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+
         <Header />
         <Gallery/>
         <Info/>
@@ -25,9 +26,9 @@ class App extends Component {
         <Lunch/>
         <Dinner />
         <Drinks />
-        <Dessert/>
-        <Careers />
-        <Footer />
+        {/* <Dessert/> */}
+        {/* <Careers /> */}
+        {/* <Footer /> */}
       </div>
     );
   }
