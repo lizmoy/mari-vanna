@@ -233,7 +233,136 @@ a {
   margin-top: -5px;
 }
 
-/* ===== Lunch ===== */
+/* MENU NAV */
+
+.menunav {
+  position: relative;
+  width: 100%;
+
+#menunav__img--lunch {
+  width: 100%;
+  position: absolute;
+  pointer-events: none;
+  left: 0;
+  top: 0;
+  z-index: -1;
+}
+
+#menunav__img--dinner {
+  width: 100%;
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
+  left: 0;
+  top: 0;
+  z-index: -1;
+}
+
+#menunav__img--dessert {
+  width: 100%;
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
+  left: 0;
+  top: 0;
+  z-index: -1;
+}
+
+#menunav__img--drinks {
+  width: 100%;
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
+  left: 0;
+  top: 0;
+  z-index: -1;
+}
+
+.menunav__lunch {
+  border: 5px solid black;
+  height: 8%;
+  color: black;
+  margin-bottom: 30px;
+  text-align: center;
+  font-family: 'p22-underground', sans-serif;
+  font-size: 50px;
+  flex: 1;
+  width: 30%;
+  margin-top: 10%;
+  margin-left: 35%;
+}
+
+.menunav__lunch:hover {
+  border: 5px solid white;
+  color: white;
+}
+
+.menunav__dinner {
+  border: 5px solid black;
+  height: 8%;
+  color: black;
+  margin-bottom: 30px;
+  text-align: center;
+  font-family: 'p22-underground', sans-serif;
+  font-size: 50px;
+  flex: 2;
+  width: 30%;
+  margin-left: 35%;
+}
+
+.menunav__dinner:hover {
+  border: 5px solid #ffffff;
+  color: white;
+}
+
+.menunav__dinner:hover + #menunav__img--dinner {
+  opacity: 100;
+}
+
+.menunav__dessert {
+  border: 5px solid black;
+  height: 8%;
+  color: black;
+  margin-bottom: 30px;
+  text-align: center;
+  font-family: 'p22-underground', sans-serif;
+  font-size: 50px;
+  flex: 3;
+  width: 30%;
+  margin-left: 35%;
+}
+
+.menunav__dessert:hover {
+  border: 5px solid white;
+  color: white;
+}
+
+.menunav__dessert:hover + #menunav__img--dessert {
+  opacity: 100;
+}
+
+.menunav__drinks {
+  border: 5px solid black;
+  height: 8%;
+  color: black;
+  text-align: center;
+  font-family: 'p22-underground', sans-serif;
+  font-size: 50px;
+  flex: 4;
+  width: 30%;
+  margin-left: 35%;
+}
+
+.menunav__drinks:hover {
+  border: 5px solid white;
+  color: white;
+}
+
+.menunav__drinks:hover + #menunav__img--drinks {
+  opacity: 100;
+}
+  
+  /* ===== Lunch ===== */
 .lunchpage__container {
   display: flex;
   flex-direction: column;
@@ -332,4 +461,3 @@ a {
   font-weight: bold;
   margin-top: 17px;
 }
-
