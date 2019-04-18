@@ -31,4 +31,35 @@
 .info__storefront-image {
   width: 50%;
   height: 476px;
+
+/* HEADER  */
+
+@import url("https://p.typekit.net/p.css?s=1&k=gsw5tei&ht=tk&f=5624.5626.5736.5738.5661.5663&a=9521813&app=typekit&e=css");
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #ee343c;
+  color: #ffffff;
+  height: 80px;
+  line-height: 80px;
+  font-size: 22px;
+  vertical-align: center;
+  font-family: 'p22-underground', sans-serif;
+}
+
+.header__title {
+  letter-spacing: 10px;
+  margin-left: 40px;
+}
+
+.header__navbar {
+  display: flex;
+  margin-right: 45px;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+  margin: 0 25px;
 }
