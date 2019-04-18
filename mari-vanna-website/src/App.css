@@ -1,1 +1,31 @@
+/* ======== styling for Info component ======== */
+.info__container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
 
+.info__top-row {
+  display: flex;
+}
+
+.info__bottom-row {
+  display: flex;
+}
+
+.info__text-right,
+.info__text-left {
+  font-size: 18px;
+  margin: 49px;
+}
+
+.info__text {
+  width: 721px;
+  height: 476px;
+}
+
+.info__doll-image,
+.info__storefront-image {
+  width: 721px;
+  height: 476px;
+}
