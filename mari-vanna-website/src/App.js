@@ -4,7 +4,7 @@ import Careers from './components/Careers'
 import Info from './components/Info'
 import Header from './components/Header.js'
 import IconBar from './components/IconBar.js'
-
+import Footer from './components/Footer.js'
 class App extends Component {
   render() {
     return (
@@ -13,6 +13,7 @@ class App extends Component {
         <IconBar />
         <Info />
         <Careers />
+        <Footer />
       </div>
     );
   }
