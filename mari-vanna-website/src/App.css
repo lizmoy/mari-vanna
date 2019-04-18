@@ -101,3 +101,50 @@ a {
   color: #ffffff;
   margin: 0 25px;
 }
+
+/* ICON BAR */
+
+.iconbar {
+  font-size: 14px;
+  height: 211px;
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  text-align: center;
+}
+
+.iconbar__address--div {
+  border: solid 1px rgba(189, 188, 188, 0.49);
+  width: 100%;
+  padding-top: 32px;
+ }
+
+.iconbar__hours--div {
+  border: solid 1px rgba(189, 188, 188, 0.49);
+  width: 100%;
+  padding-top: 42px;
+}
+
+.iconbar__contact--div {
+  border: solid 1px rgba(189, 188, 188, 0.49);
+  width: 100%;
+  padding-top: 42px;
+}
+
+.iconbar__check--div {
+  border: solid 1px rgba(189, 188, 188, 0.49);
+  width: 100%;
+  padding-top: 42px;
+}
+
+.iconbar__h3 {
+  font-family: 'p22-underground', sans-serif;
+  letter-spacing: 1px;
+  margin-top: 18px;
+}
+
+.iconbar__text {
+  font-style: italic;
+  font-family:"minion-pro";
+  margin-top: -5px;
+}
