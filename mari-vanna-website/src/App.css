@@ -214,7 +214,55 @@ a {
   margin-top: -5px;
 }
 
+/* ===== Lunch ===== */
+.lunchpage__container {
+  display: flex;
+  flex-direction: column;
+}
 
+.lunchpage__image {
+  width: 100%;
+}
+
+.lunchpage__menu {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  margin-bottom: 120px;
+}
+
+.lunchpage__title {
+  font-family: 'Lato', sans-serif;
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: bolder;
+  margin: 40px;
+  text-align: center;
+}
+
+.lunchpage__subtitle {
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  text-transform: uppercase;
+  color:#ed5452;
+}
+
+.lunchpage__menu-item {
+  display: flex;
+  align-items: center;
+}
+
+.lunchpage__menu-item-bold {
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.lunchpage__menu-item-text {
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+  margin-left: 5px;
+} 
 
 /* Footer */
 
