@@ -1,18 +1,16 @@
 /* Career-Component */
 	
-
 .career--banner{
-  width: 1439px;
+  width: 100%;
   height: 421px;
   margin-bottom: 6%;
 }
 
-
-.career--careerOportunitiesTitle{
+.career--careerOportunitiesTitle {
   width: 544px;
   height: 61px;
-  font-family: AvenirNext;
-  font-size: 45px;
+  font-family: 'Lato', sans-serif;
+  font-size: 30px;
   font-weight: 600;
   font-style: normal;
   font-stretch: normal;
@@ -24,12 +22,11 @@
   margin-left: 33%;
 }
 
-
 .career--careerOportunitiesParagraph{
   width: 1287px;
   height: 54px;
-  font-family: AvenirNext;
-  font-size: 20px;
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
   font-weight: normal;
   font-style: normal;
   font-stretch: normal;
@@ -39,13 +36,12 @@
   text-align: center;
   margin-left: 5%;
   margin-top: 6%;
-
 }
   
 @import url('https://fonts.googleapis.com/css?family=Lato:300');
 @import url("https://p.typekit.net/p.css?s=1&k=gsw5tei&ht=tk&f=5624.5626.5736.5738.5661.5663&a=9521813&app=typekit&e=css");
 
-
+/* ===== Info ===== */
 
 .info__container {
   width: 100%;
@@ -53,16 +49,34 @@
   flex-direction: column;
 }
 
+/* Drinks--Component */
+
+.drinks-image{
+  width: 1439.7px;
+  height: 421px;
+}
+
+.drinks--mainTitle{
+  width: 169px;
+  height: 61px;
+  /* font-family: AvenirNext; */
+  font-size: 45px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.1px;
+  text-align: right;
+  color: var(--black);
+}
 
 .info__top-row {
   display: flex;
 }
 
-
 .info__bottom-row {
   display: flex;
 }
-
 
 .info__text-right,
 .info__text-left {
@@ -71,19 +85,16 @@
   font-family: 'Lato', sans-serif;
 }
 
-
 .info__text {
   width: 50%;
   height: 476px;
 }
-
 
 .info__doll-image,
 .info__storefront-image {
   width: 50%;
   height: 476px;
 }
-
 
 /* HEADER  */
 
@@ -99,20 +110,17 @@
   font-family: 'p22-underground', sans-serif;
 }
 
-
 .header__title {
   letter-spacing: 10px;
   margin-left: 40px;
 }
-
 
 .header__navbar {
   display: flex;
   margin-right: 45px;
 }
 
-
-a {
+.header__atag {
   text-decoration: none;
   color: #ffffff;
   margin: 0 25px;
@@ -163,7 +171,6 @@ a {
 
 /* ICON BAR */
 
-
 .iconbar {
   font-size: 14px;
   height: 211px;
@@ -173,13 +180,11 @@ a {
   text-align: center;
 }
 
-
 .iconbar__address--div {
   border: solid 1px rgba(189, 188, 188, 0.49);
   width: 100%;
   padding-top: 32px;
  }
-
 
 .iconbar__hours--div {
   border: solid 1px rgba(189, 188, 188, 0.49);
@@ -187,13 +192,11 @@ a {
   padding-top: 42px;
 }
 
-
 .iconbar__contact--div {
   border: solid 1px rgba(189, 188, 188, 0.49);
   width: 100%;
   padding-top: 42px;
 }
-
 
 .iconbar__check--div {
   border: solid 1px rgba(189, 188, 188, 0.49);
@@ -201,13 +204,11 @@ a {
   padding-top: 42px;
 }
 
-
 .iconbar__h3 {
   font-family: 'p22-underground', sans-serif;
   letter-spacing: 1px;
   margin-top: 18px;
 }
-
 
 .iconbar__text {
   font-style: italic;
@@ -273,7 +274,208 @@ a {
   color: black;
 }
 
+/* MENU NAV */
 
+.menunav {
+  position: relative;
+  width: 100%;
+}
+
+#menunav__img--lunch {
+  width: 100%;
+  position: absolute;
+  pointer-events: none;
+  left: 0;
+  top: 0;
+  z-index: -1;
+}
+
+#menunav__img--dinner {
+  width: 100%;
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
+  left: 0;
+  top: 0;
+  z-index: -1;
+}
+
+#menunav__img--dessert {
+  width: 100%;
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
+  left: 0;
+  top: 0;
+  z-index: -1;
+}
+
+#menunav__img--drinks {
+  width: 100%;
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
+  left: 0;
+  top: 0;
+  z-index: -1;
+}
+
+.menunav__lunch {
+  border: 5px solid black;
+  height: 8%;
+  color: black;
+  margin-bottom: 30px;
+  text-align: center;
+  font-family: 'p22-underground', sans-serif;
+  font-size: 50px;
+  flex: 1;
+  width: 30%;
+  margin-top: 10%;
+  margin-left: 35%;
+}
+
+.menunav__lunch:hover {
+  border: 5px solid white;
+  color: white;
+}
+
+.menunav__dinner {
+  border: 5px solid black;
+  height: 8%;
+  color: black;
+  margin-bottom: 30px;
+  text-align: center;
+  font-family: 'p22-underground', sans-serif;
+  font-size: 50px;
+  flex: 2;
+  width: 30%;
+  margin-left: 35%;
+}
+
+.menunav__dinner:hover {
+  border: 5px solid #ffffff;
+  color: white;
+}
+
+.menunav__dinner:hover + #menunav__img--dinner {
+  opacity: 100;
+}
+
+.menunav__dessert {
+  border: 5px solid black;
+  height: 8%;
+  color: black;
+  margin-bottom: 30px;
+  text-align: center;
+  font-family: 'p22-underground', sans-serif;
+  font-size: 50px;
+  flex: 3;
+  width: 30%;
+  margin-left: 35%;
+}
+
+.menunav__dessert:hover {
+  border: 5px solid white;
+  color: white;
+}
+
+.menunav__dessert:hover + #menunav__img--dessert {
+  opacity: 100;
+}
+
+.menunav__drinks {
+  border: 5px solid black;
+  height: 8%;
+  color: black;
+  text-align: center;
+  font-family: 'p22-underground', sans-serif;
+  font-size: 50px;
+  flex: 4;
+  width: 30%;
+  margin-left: 35%;
+}
+
+.menunav__drinks:hover {
+  border: 5px solid white;
+  color: white;
+}
+
+.menunav__drinks:hover + #menunav__img--drinks {
+  opacity: 100;
+}
+  
+  /* ===== Lunch ===== */
+.lunchpage__container {
+  display: flex;
+  flex-direction: column;
+}
+
+.lunchpage__image {
+  width: 100%;
+}
+
+.lunchpage__title {
+  font-family: 'Lato', sans-serif;
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: bolder;
+  margin: 40px;
+  text-align: center;
+}
+
+.lunchpage__subtitle {
+  font-family: 'Lato', sans-serif;
+  font-size: 19px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color:#ed5452;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.lunchpage__menu {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  margin-bottom: 120px;
+  margin-left: 90px;
+  margin-right: 90px;
+}
+
+.lunchpage__menu-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 10px;
+  margin-bottom: 20px;
+}
+
+.lunchpage__menu-bold {
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 3px;
+}
+
+.lunchpage__menu-item-text {
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+  margin: 0;
+} 
+
+.lunchpage__salads,
+.lunchpage__appetizers,
+.lunchpage__soups,
+.lunchpage__entrees {
+  margin-top: 30px;
+  margin-bottom: 35px;
+}
+
+.lunchpage__line-break {
+  width: 80%;
+  text-align: center;
+  color: black;
+}
 
 /* Footer */
 
@@ -301,4 +503,3 @@ a {
   font-weight: bold;
   margin-top: 17px;
 }
-
