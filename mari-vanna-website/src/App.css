@@ -1,5 +1,7 @@
 /* ======== styling for Info component ======== */
 @import url('https://fonts.googleapis.com/css?family=Lato:300');
+@import url("https://p.typekit.net/p.css?s=1&k=gsw5tei&ht=tk&f=5624.5626.5736.5738.5661.5663&a=9521813&app=typekit&e=css");
+
 
 .info__container {
   width: 100%;
@@ -31,10 +33,9 @@
 .info__storefront-image {
   width: 50%;
   height: 476px;
+}
 
 /* HEADER  */
-
-@import url("https://p.typekit.net/p.css?s=1&k=gsw5tei&ht=tk&f=5624.5626.5736.5738.5661.5663&a=9521813&app=typekit&e=css");
 
 .header {
   display: flex;
