@@ -1,33 +1,31 @@
-.App {
-  text-align: center;
-}
+/* HEADER  */
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
+@import url("https://p.typekit.net/p.css?s=1&k=gsw5tei&ht=tk&f=5624.5626.5736.5738.5661.5663&a=9521813&app=typekit&e=css");
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.header {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between;
+  background-color: #ee343c;
+  color: #ffffff;
+  height: 80px;
+  line-height: 80px;
+  font-size: 22px;
+  vertical-align: center;
+  font-family: 'p22-underground', sans-serif;
 }
 
-.App-link {
-  color: #61dafb;
+.header__title {
+  letter-spacing: 10px;
+  margin-left: 40px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.header__navbar {
+  display: flex;
+  margin-right: 45px;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+  margin: 0 25px;
 }
