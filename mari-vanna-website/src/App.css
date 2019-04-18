@@ -52,6 +52,25 @@
   flex-direction: column;
 }
 
+/* Drinks--Component */
+
+.drinks-image{
+  width: 1439.7px;
+  height: 421px;
+}
+.drinks--mainTitle{
+  width: 169px;
+  height: 61px;
+  /* font-family: AvenirNext; */
+  font-size: 45px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.1px;
+  text-align: right;
+  color: var(--black);
+}
 
 .info__top-row {
   display: flex;
