@@ -31,6 +31,7 @@ function Lunch() {
                         <p className="lunchpage__menu-item-text">Poached Salmon, Lettuce, Tomatoes, Cucumbers, Red Onions, Olives and Capers (Choice of Sunflower Oil or Russian Dressing)</p> 
                     </div>
                 </div>
+                <hr className="lunchpage__line-break"></hr>
                 <div className="lunchpage__appetizers">
                     <div className="lunchpage__subtitle">Appetizers</div>
                     <div className="lunchpage__menu-item"><span className="lunchpage__menu-bold">Cured Herring $14</span>
@@ -57,6 +58,7 @@ function Lunch() {
                     </div>
                     <div className="lunchpage__menu-item"><span className="lunchpage__menu-bold">Homemade Blinis with Beef — $16</span></div>
                 </div>
+                <hr className="lunchpage__line-break"></hr>
                 <div className="lunchpage__soups">
                     <div className="lunchpage__subtitle">Soups</div>
                     <div className="lunchpage__menu-item"><span className="lunchpage__menu-bold">Borsch $14</span>
@@ -67,6 +69,7 @@ function Lunch() {
                         <p className="lunchpage__menu-item-text">Chicken Broth with Sorrel, Roasted Chicken, Roasted Carrots and Onions, Potatoes, Poached Egg, Scallions and Dill. Served with Croutons on the Side.</p>
                     </div>
                 </div>
+                <hr className="lunchpage__line-break"></hr>
                 <div className="lunchpage__entrees">
                     <div className="lunchpage__subtitle">Entrees</div>
                     <div className="lunchpage__menu-item"><span className="lunchpage__menu-bold">Potatoes with Mushrooms and Onions $21</span>

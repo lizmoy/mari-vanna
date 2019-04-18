@@ -273,8 +273,16 @@ a {
 
 .lunchpage__salads,
 .lunchpage__appetizers,
-.lunchpage__soups {
-  margin-top: 20px;
+.lunchpage__soups,
+.lunchpage__entrees {
+  margin-top: 30px;
+  margin-bottom: 35px;
+}
+
+.lunchpage__line-break {
+  width: 80%;
+  text-align: center;
+  color: black;
 }
 
 /* Footer */
