@@ -57,6 +57,16 @@ function Lunch() {
                     </div>
                     <div className="lunchpage__menu-item"><span className="lunchpage__menu-bold">Homemade Blinis with Beef — $16</span></div>
                 </div>
+                <div className="lunchpage__soups">
+                    <div className="lunchpage__subtitle">Soups</div>
+                    <div className="lunchpage__menu-item"><span className="lunchpage__menu-bold">Borsch $14</span>
+                        <p className="lunchpage__menu-item-text">The Masterpiece of Russian Cuisine: Flavorful Beet Soup with Beef, Served with Sides of Garlic, Fresh Herbs, Rye Bread and Salo</p>
+                    </div>
+                    <div className="lunchpage__menu-item"><span className="lunchpage__menu-bold">Mushroom Soup with Carrots, Potatoes and Barley — $14</span></div>
+                    <div className="lunchpage__menu-item"><span className="lunchpage__menu-bold">Sorrel Soup $14</span>
+                        <p className="lunchpage__menu-item-text">Chicken Broth with Sorrel, Roasted Chicken, Roasted Carrots and Onions, Potatoes, Poached Egg, Scallions and Dill. Served with Croutons on the Side.</p>
+                    </div>
+                </div>
             </div>
         </div>
     )
