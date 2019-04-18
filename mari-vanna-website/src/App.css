@@ -1,4 +1,42 @@
-/* ======== styling for Info component ======== */
+/* Career-Component */
+
+.career--banner{
+  width: 1439px;
+  height: 421px;
+  margin-bottom: 6%;
+}
+
+.career--careerOportunitiesTitle{
+  width: 544px;
+  height: 61px;
+  font-family: AvenirNext;
+  font-size: 45px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.1px;
+  text-align: center;
+  color: var(--black);
+  display: inline;
+  margin-left: 33%;
+}
+
+.career--careerOportunitiesParagraph{
+  width: 1287px;
+  height: 54px;
+  font-family: AvenirNext;
+  font-size: 20px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 2.4px;
+  color: var(--black);
+  text-align: center;
+  margin-left: 5%;
+  margin-top: 6%;
+  
 @import url('https://fonts.googleapis.com/css?family=Lato:300');
 
 .info__container {
