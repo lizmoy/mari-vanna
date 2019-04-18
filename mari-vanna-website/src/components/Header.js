@@ -9,7 +9,7 @@ class Header extends Component {
             <a className="header__atag" href='#'>HOME</a>
             <a className="header__atag" href='#'>ABOUT</a>
             <a className="header__atag" href='#'>MENU</a>
-            <a className="header__atag" href='#'>RESERVATION</a>
+            <a className="header__atag" target='blank' href='https://www.opentable.com/r/mari-vanna-new-york'>RESERVATION</a>
         </div>
       </div>
     )
