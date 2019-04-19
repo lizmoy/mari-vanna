@@ -610,7 +610,7 @@
 
 .footer__navbar {
   display: flex;
-  margin-right: 300px;
+  margin-left: -150px;
   margin-top: 15px;
   font-size: 10px;
   letter-spacing: 1px;
@@ -629,3 +629,11 @@ a {
   font-weight: normal;
   text-decoration: none;
 }
+
+.footerIcons{
+  display: flex;
+  justify-content: space-between;
+  margin-top: -5px;
+  margin-right: -80px;
+}
+
