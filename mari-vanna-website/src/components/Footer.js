@@ -17,16 +17,16 @@ class Footer extends Component {
             <Link className="footer__careers" to="/careers">CAREERS</Link>  
         </nav>
         <div className='footer__followus'>
-        <a  href='#'>FOLLOW US</a>
+        <div  href='#'>FOLLOW US</div>
         <div className="footerIcons">
         <div className="footericon__facebook">
-        <img src={facebookIcon} alt="" />
+        <a href='https://www.facebook.com/MariVannaNYC/'><img src={facebookIcon} alt="" /></a>
         </div>
         <div className="footericon__instagram">
-        <img src={InstagramIcon} alt="" />
+        <a href='https://www.instagram.com/explore/locations/465545001/mari-vanna-nyc/?hl=en'><img src={InstagramIcon} alt="" /></a>
         </div>
         <div className="footericon__twitter">
-        <img src={TwitterIcon} alt="" />
+        <a href='https://twitter.com/marivannany?lang=en'><img src={TwitterIcon} alt="" /></a>
         </div>
         </div>
        </div>
