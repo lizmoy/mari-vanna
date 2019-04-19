@@ -16,7 +16,7 @@ const MenuNav = () => {
       <Router>
         <Home/>
         <Link to="/"></Link>
-        <div className="menunav">
+        <div className="menunav" id="menu">
           <Link className="menunav__lunch" to="/lunch">LUNCH</Link>
           <img id="menunav__img--lunch" alt="lunch menu" src={LunchPic} />
           <Link className="menunav__dinner" to="/dinner">DINNER</Link>
