@@ -598,14 +598,16 @@
 /* Footer */
 
 .footer{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
   display: flex;
   justify-content: space-evenly;
   background-color: #5d5d5d;
   color: #ffffff;
   height: 40px;
-  margin-top: 800px;
   font-family: 'p22-underground', sans-serif;
-  
 }
 
 .footer__navbar {
