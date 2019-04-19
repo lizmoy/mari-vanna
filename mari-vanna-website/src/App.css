@@ -197,7 +197,13 @@
 .info__text-left {
   font-size: 18px;
   margin: 49px;
+  margin-bottom: 0px;
   font-family: 'Lato', sans-serif;
+}
+
+#info__text-right-div {
+  display: flex;
+  flex-direction: column;
 }
 
 .info__text {
@@ -743,9 +749,14 @@ img{
     font-size: 12px;
     font-style: italic;
     font-weight: 600;
-    margin: 30px 25px 30px 25px;
+    margin: 20px 25px 30px 25px;
+    margin-bottom: 0px;
     font-family: 'Lato', sans-serif;
     text-align: center;
+  }
+
+  #right-2 {
+    margin-bottom: 20px;
   }
 
   .info__text {
