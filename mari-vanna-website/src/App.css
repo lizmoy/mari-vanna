@@ -32,10 +32,10 @@
   font-stretch: normal;
   line-height: normal;
   letter-spacing: 2.4px;
-  color: var(--black);
   text-align: center;
   margin-left: 5%;
   margin-top: 6%;
+  margin-bottom: 200px;
 }
 
 @import url('https://fonts.googleapis.com/css?family=Lato:300');
@@ -106,7 +106,6 @@
   letter-spacing: 2.4px;
   color: #0e0e0e;
   list-style: none;
-  margin-bottom:;
 }
 
 .drinks-vodkaPrices{
@@ -121,8 +120,6 @@
   letter-spacing: 2.3px;
   color: #0e0e0e;
   list-style: none;
-  
-  
 }
 
 .drinks--vodkaFlights{
@@ -359,6 +356,8 @@
   flex-direction: column;
   align-self: center;
   margin-bottom: 120px;
+  margin-left: 90px;
+  margin-right: 90px;
 }
 
 .dinnerpage__title {
@@ -376,29 +375,38 @@
 
 .dinnerpage__menu-item-title {
   font-family: 'Lato', sans-serif;
-  font-size: 30px;
-  font-weight: bolder;
-  margin: 40px;
+  font-size: 19px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color:#ed5452;
   text-align: center;
-  color: #ee343c;
+  margin-bottom: 5px;
 }
 
 .dinnerpage__menu-item-bold {
   font-family: 'Lato', sans-serif;
   font-size: 18px;
   font-weight: bold;
+  margin: 0;
 }
 
 .dinnerpage__menu-item-text {
   font-family: 'Lato', sans-serif;
   font-size: 18px;
-  margin-left: 5px;
+  margin-left: 0px;
+  margin: 0;
 } 
 
 .dinnerpage__line-break {
   width: 80%;
   text-align: center;
   color: black;
+}
+
+.dinnerpage__menu-item-subtitle-hot,
+.dinnerpage__menu-item-subtitle-cold {
+  margin-top: 5px;
+  margin-left: 5px;
 }
 
 /* MENU NAV */
@@ -609,28 +617,30 @@
 /* Footer */
 
 .footer{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
   display: flex;
-  justify-content: space-evenly;
   background-color: #5d5d5d;
   color: #ffffff;
   height: 40px;
-  margin-top: 800px;
   font-family: 'p22-underground', sans-serif;
-  
 }
 
 .footer__navbar {
   display: flex;
-  margin-left: -150px;
+  margin-left: 10px;
   margin-top: 15px;
-  font-size: 10px;
+  font-size: 12px;
   letter-spacing: 1px;
   }
 
 .footer__followus{
  display: flex;
  margin-top: 15px;
- font-size: 10px;
+ font-size: 12px;
+ margin-left: 130px;
  text-decoration: none;
 }
 
@@ -639,6 +649,16 @@ a {
   margin: 0 25px;
   font-weight: normal;
   text-decoration: none;
+}
+
+.footerIcons{
+  display: flex;
+  justify-content: space-between;
+  margin-top: -5px;
+}
+
+img{
+  margin: 0 10px 0 0;
 }
 
 /* ====== media query iPhone 6/7/8 ====== */
@@ -703,7 +723,7 @@ a {
   }
 
   .header__title {
-    widows: 100%;
+    width: 100%;
     margin-left: 30px;
     font-size: 18px;
   }
@@ -741,10 +761,6 @@ a {
     flex-direction: column-reverse
   }
 
-  .menunav {
-  
-  }
-
   .menunav__lunch,
   .menunav__dinner,
   .menunav__dessert,
@@ -754,16 +770,57 @@ a {
     margin-top: 10px;
     margin-bottom: 10px;
   }
+
+  .lunchpage__menu {
+    margin-left: 12px;
+    margin-right: 10px;
+  }
+
+  .lunchpage__title {
+    margin: 25px auto;
+    margin-bottom: 0px;
+  }
+
+  .dinnerpage__menu {
+    margin-left: 18px;
+    margin-right: 10px;
+  }
+
+  .dinnerpage__title {
+    margin: 25px auto;
+    margin-bottom: 30px;
+  }
+
+  .dinnerpage__line-break {
+    margin-top: 50px;
+    margin-bottom: 35px;
+  }
+
+  .footer{
+    display: flex;
+    margin-top: 10px;
+  }
+
+  .footer__navbar {
+    display: flex;
+    margin-left: 10px;
+   }
+
+  .footer__followus{
+    margin: 15px 10px 0 50px;
+  }
+
+  a { 
+    font-size: 5px;
+    margin: 0 10px 0 0;
+  }
+
+
 }
 
 /* ====== media query iPhone 6/7/8 ====== */
 
-.footerIcons{
-  display: flex;
-  justify-content: space-between;
-  margin-top: -5px;
-  margin-right: -80px;
-}
+
 
 /* ====== media query iPhone 6/7/8 Drinks Component ====== */
 

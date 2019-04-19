@@ -29,9 +29,6 @@ class Footer extends Component {
         <img src={TwitterIcon} alt="" />
         </div>
         </div>
-        {/* </div>
-            <Route exact path="/careers" component={Careers} />
-        </div> */}
        </div>
        </div>
     )
