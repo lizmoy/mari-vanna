@@ -198,7 +198,13 @@
 .info__text-left {
   font-size: 18px;
   margin: 49px;
+  margin-bottom: 0px;
   font-family: 'Lato', sans-serif;
+}
+
+#info__text-right-div {
+  display: flex;
+  flex-direction: column;
 }
 
 .info__text {
@@ -626,6 +632,7 @@
   color: #ffffff;
   height: 40px;
   font-family: 'p22-underground', sans-serif;
+  justify-content: space-between;
 }
 
 .footer__navbar {
@@ -640,7 +647,7 @@
  display: flex;
  margin-top: 15px;
  font-size: 12px;
- margin-left: 130px;
+ margin-right: 30px;
  text-decoration: none;
 }
 
@@ -705,13 +712,26 @@ img{
 
   .icon-image {
     width: 7%;
-    margin-left: 30px;
+    margin-left: 40px;
   }
 
   .iconbar__text {
     text-align: center;
     margin-left: 20px;
     margin-top: 5px;
+  }
+
+  /* .iconbar__contact--div,
+  .iconbar__check--div {
+    justify-content: center;
+  } */
+
+  #phone-number {
+    margin-right: 50px;
+  }
+
+  #price {
+    margin-right: 80px;
   }
 
   .header {
@@ -732,9 +752,14 @@ img{
     font-size: 12px;
     font-style: italic;
     font-weight: 600;
-    margin: 30px 25px 10px 25px;
+    margin: 20px 25px 30px 25px;
+    margin-bottom: 0px;
     font-family: 'Lato', sans-serif;
     text-align: center;
+  }
+
+  #right-2 {
+    margin-bottom: 20px;
   }
 
   .info__text {
