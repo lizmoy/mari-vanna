@@ -682,4 +682,19 @@ a {
     margin-left: 20px;
     margin-top: 5px;
   }
+
+  .header {
+    justify-content: flex-start;
+  }
+
+  .header__navbar {
+    display: none;
+  }
+
+  .header__title {
+    widows: 100%;
+    margin-left: 30px;
+    font-size: 18px;
+  }
+
 }
