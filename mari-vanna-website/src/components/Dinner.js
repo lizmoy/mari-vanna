@@ -117,7 +117,7 @@ function Dinner() {
                 <hr className="dinnerpage__line-break"></hr>
 
                 <div className="dinnerpage__menu-item-title">Appetizers</div>
-                <div className="dinnerpage__menu-item-subtitle">Cold</div>
+                <div className="dinnerpage__menu-item-subtitle-cold">Cold</div>
                 <div className="dinnerpage__menu-item">
                 <p className="dinnerpage__menu-item-bold">Cured Herring  $14</p>
                     <p className="dinnerpage__menu-item-text"> 

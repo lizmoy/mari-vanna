@@ -403,7 +403,8 @@
   color: black;
 }
 
-.dinnerpage__menu-item-subtitle-hot{
+.dinnerpage__menu-item-subtitle-hot,
+.dinnerpage__menu-item-subtitle-cold {
   margin-top: 5px;
   margin-left: 5px;
 }
