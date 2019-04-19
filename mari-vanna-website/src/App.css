@@ -106,7 +106,6 @@
   letter-spacing: 2.4px;
   color: #0e0e0e;
   list-style: none;
-  margin-bottom:;
 }
 
 .drinks-vodkaPrices{
@@ -121,8 +120,6 @@
   letter-spacing: 2.3px;
   color: #0e0e0e;
   list-style: none;
-  margin-top: 
-  
 }
 
 .drinks--vodkaFlights{
@@ -617,28 +614,30 @@
 /* Footer */
 
 .footer{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
   display: flex;
-  justify-content: space-evenly;
   background-color: #5d5d5d;
   color: #ffffff;
   height: 40px;
-  margin-top: 800px;
   font-family: 'p22-underground', sans-serif;
-  
 }
 
 .footer__navbar {
   display: flex;
-  margin-left: -150px;
+  margin-left: 10px;
   margin-top: 15px;
-  font-size: 10px;
+  font-size: 12px;
   letter-spacing: 1px;
   }
 
 .footer__followus{
  display: flex;
  margin-top: 15px;
- font-size: 10px;
+ font-size: 12px;
+ margin-left: 130px;
  text-decoration: none;
 }
 
@@ -647,6 +646,16 @@ a {
   margin: 0 25px;
   font-weight: normal;
   text-decoration: none;
+}
+
+.footerIcons{
+  display: flex;
+  justify-content: space-between;
+  margin-top: -5px;
+}
+
+img{
+  margin: 0 10px 0 0;
 }
 
 /* ====== media query iPhone 6/7/8 ====== */
@@ -783,13 +792,30 @@ a {
     margin-top: 50px;
     margin-bottom: 35px;
   }
+
+  .footer{
+    display: flex;
+    margin-top: 10px;
+  }
+
+  .footer__navbar {
+    display: flex;
+    margin-left: 10px;
+   }
+
+  .footer__followus{
+    margin: 15px 10px 0 50px;
+  }
+
+  a { 
+    font-size: 5px;
+    margin: 0 10px 0 0;
+  }
+
+
 }
+
 /* ====== media query iPhone 6/7/8 ====== */
 
-.footerIcons{
-  display: flex;
-  justify-content: space-between;
-  margin-top: -5px;
-  margin-right: -80px;
-}
+
 
