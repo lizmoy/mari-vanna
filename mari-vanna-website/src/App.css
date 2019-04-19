@@ -121,7 +121,7 @@
   letter-spacing: 2.3px;
   color: #0e0e0e;
   list-style: none;
-  margin-top: 
+  
   
 }
 
@@ -178,6 +178,7 @@
   margin-left: 727px;
   border-left: 1px solid black;
 }
+
 
 
 /* ===== Info ===== */
@@ -251,6 +252,8 @@
 }
 
 /* ======== Dessert ========= */
+
+
 .dessertpage__container {
   display: flex;
   flex-direction: column;
@@ -762,3 +765,131 @@ a {
   margin-right: -80px;
 }
 
+/* ====== media query iPhone 6/7/8 Drinks Component ====== */
+
+@media only screen and (max-width: 375px){
+
+
+.drinks--alcoholicDrinks{
+  margin-top:0;
+  margin-right: 0;
+}
+
+.drinks-image{
+  width: 375px;
+  height: 212px;
+}
+
+.drinks--mainTitle{
+  margin-left: 26%;
+}
+.drinks--vodkaMenu{
+  font-size: 24px;
+  line-height: 0.63;
+  color: #ee343c;
+  margin-left: 11%;
+}
+.drinks--vodkaDescription{
+  height: 15px;
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  margin-left:8%;
+}
+.drinks--vodkaFlavors1{
+  height: 112px;
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: 2.4px;
+  color: #0e0e0e;
+  list-style: none;
+ 
+}
+.drinks--vodkaFlavors2{
+  height: 140px;
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: 2.4px;
+  color: #0e0e0e;
+  list-style: none;
+  margin-bottom:;
+}
+
+.drinks-vodkaPrices{
+  height: 45px;
+  font-family: 'Lato', sans-serif;
+  font-size: 15px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.35;
+  letter-spacing: 2.3px;
+  color: #0e0e0e;
+  list-style: none;
+ 
+  
+}
+
+.drinks--vodkaFlights{
+  height: 54px;
+  font-family: 'Lato', sans-serif;
+  font-size: 15px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.35;
+  letter-spacing: 2.3px;
+  color: #0e0e0e;
+  list-style: none;
+ 
+}
+
+.drinks--nonAlcoholicDrinks--title{
+  font-size: 24px;
+  font-weight: bold;
+  color: #ee343c;
+  margin-left: 18%;
+  margin-top: -7%;
+}
+.drinks--nonAlcoholicDrinks--items{
+  height: 575px;
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: 2.9px;
+  color: #060606;
+  list-style: none;
+  margin-left: -73%;
+  margin-top:44%;
+}
+
+.drinks--vodkaAllItems{
+  width: 70%;
+  height: 400%;
+  display: flex;
+  flex-direction:column;
+  flex-flow:row wrap;
+  flex-wrap: wrap;
+  margin-left: 13%;
+}
+
+.drinks--nonAlcoholicDrinks--mainContainer{
+  width: 70%;
+  height: 400%;
+  display: flex;
+  margin-left: 15%;
+  border-left: none;
+  margin-top: 11%;
+}
+}
+/* ====== media queries iPhone 6/7/8 Drinks Component ======= */
