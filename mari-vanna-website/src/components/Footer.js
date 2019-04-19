@@ -1,18 +1,25 @@
 import React, { Component } from 'react'
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import Careers from './Careers'
 
 class Footer extends Component {
     render() {
     return (
+      
         <div className="footer">
-        <div className='footer__navbar'>
-            <a href='#'>HOME</a>
+        <nav className='footer__navbar'>
             <a href='#'>NEWS</a>
             <a href='#'>PRESS</a>
-            <a href='#'>OUR GUESTS</a>
-            <a href='#'>CAREERS</a>
-            <a href='#'>FOLLOW US</a>
-        </div>
-        </div>
+            <a href='#'>OUR GUESTS</a> 
+            <Link className="footer__careers" to="/careers">CAREERS</Link>  
+        </nav>
+        <div>
+        <a className='footer__followus' href='#'>FOLLOW US</a>
+        {/* </div>
+            <Route exact path="/careers" component={Careers} />
+        </div> */}
+       </div>
+       </div>
     )
   }
 }

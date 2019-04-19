@@ -598,26 +598,34 @@
 /* Footer */
 
 .footer{
-  background-color: rgb(93, 93, 93);
-  color: white;
-  height: 11vh;
-  width: 100vw;
-  margin-top: 340px;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #5d5d5d;
+  color: #ffffff;
+  height: 40px;
+  margin-top: 800px;
+  font-family: 'p22-underground', sans-serif;
+  
 }
 
 .footer__navbar {
-    display: flex;
-    justify-content: left;
-    vertical-align: center;
-    list-style: none;
-    font-family: 'p22-underground', sans-serif;
-    margin-left: -20px;
-    font-size: 10px;
+  display: flex;
+  margin-right: 300px;
+  margin-top: 15px;
+  font-size: 10px;
+  letter-spacing: 1px;
   }
 
+.footer__followus{
+ display: flex;
+ margin-top: 15px;
+ font-size: 10px;
+ text-decoration: none;
+}
+
 a { 
+  color: #ffffff;
+  margin: 0 25px;
+  font-weight: normal;
   text-decoration: none;
-  color: white;
-  font-weight: bold;
-  margin-top: 17px;
 }
