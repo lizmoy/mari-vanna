@@ -6,7 +6,7 @@ import Gallery from './components/Gallery';
 import IconBar from './components/IconBar'
 import Info from './components/Info'
 import Footer from './components/Footer'
-
+import Drinks from './components/Drinks'
 class App extends Component {
   render() {
     return (
@@ -15,6 +15,7 @@ class App extends Component {
         <Gallery/>
         <IconBar />
         <Info/>
+        <Drinks />
         <Footer />
       </div>
     );
