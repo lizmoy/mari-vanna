@@ -15,6 +15,7 @@ class App extends Component {
         <Gallery/>
         <IconBar />
         <Info/>
+        <MenuNav/>
         <Footer />
       </div>
     );
