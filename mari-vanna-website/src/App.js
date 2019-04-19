@@ -13,10 +13,11 @@ import Careers from './components/Careers'
 class App extends Component {
   render() {
     return (
-        <Router>
+
+         <Router>
           <div className="App">
             <Header />
-            <main>
+             <main>
               <Route exact path="/" component={Home}/>
               <Route exact path="/lunch" component={Lunch} />
               <Route exact path="/dinner" component={Dinner} />
@@ -27,6 +28,7 @@ class App extends Component {
             <Footer />
           </div>
         </Router>
+
     );
   }
 }
