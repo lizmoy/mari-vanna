@@ -32,10 +32,10 @@
   font-stretch: normal;
   line-height: normal;
   letter-spacing: 2.4px;
-  color: var(--black);
   text-align: center;
   margin-left: 5%;
   margin-top: 6%;
+  margin-bottom: 200px;
 }
 
 @import url('https://fonts.googleapis.com/css?family=Lato:300');
