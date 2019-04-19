@@ -8,6 +8,7 @@ import Lunch from './components/Lunch'
 import Dinner from './components/Dinner'
 import Dessert from './components/Dessert'
 import Drinks from './components/Drinks'
+import Careers from './components/Careers'
 
 class App extends Component {
   render() {
@@ -21,6 +22,7 @@ class App extends Component {
               <Route exact path="/dinner" component={Dinner} />
               <Route exact path="/dessert" component={Dessert} />
               <Route exact path="/drinks" component={Drinks} />
+              <Route exact path="/careers" component={Careers} />
             </main>
             <Footer />
           </div>
