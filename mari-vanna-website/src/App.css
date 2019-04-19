@@ -356,6 +356,8 @@
   flex-direction: column;
   align-self: center;
   margin-bottom: 120px;
+  margin-left: 90px;
+  margin-right: 90px;
 }
 
 .dinnerpage__title {
@@ -373,29 +375,37 @@
 
 .dinnerpage__menu-item-title {
   font-family: 'Lato', sans-serif;
-  font-size: 30px;
-  font-weight: bolder;
-  margin: 40px;
+  font-size: 19px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color:#ed5452;
   text-align: center;
-  color: #ee343c;
+  margin-bottom: 5px;
 }
 
 .dinnerpage__menu-item-bold {
   font-family: 'Lato', sans-serif;
   font-size: 18px;
   font-weight: bold;
+  margin: 0;
 }
 
 .dinnerpage__menu-item-text {
   font-family: 'Lato', sans-serif;
   font-size: 18px;
-  margin-left: 5px;
+  margin-left: 0px;
+  margin: 0;
 } 
 
 .dinnerpage__line-break {
   width: 80%;
   text-align: center;
   color: black;
+}
+
+.dinnerpage__menu-item-subtitle-hot{
+  margin-top: 5px;
+  margin-left: 5px;
 }
 
 /* MENU NAV */
@@ -738,10 +748,6 @@ a {
     flex-direction: column-reverse
   }
 
-  .menunav {
-  
-  }
-
   .menunav__lunch,
   .menunav__dinner,
   .menunav__dessert,
@@ -752,10 +758,6 @@ a {
     margin-bottom: 10px;
   }
 
-  /* .lunchpage__container {
-    margin-bottom: 0px;
-  } */
-
   .lunchpage__menu {
     margin-left: 12px;
     margin-right: 10px;
@@ -764,6 +766,21 @@ a {
   .lunchpage__title {
     margin: 25px auto;
     margin-bottom: 0px;
+  }
+
+  .dinnerpage__menu {
+    margin-left: 18px;
+    margin-right: 10px;
+  }
+
+  .dinnerpage__title {
+    margin: 25px auto;
+    margin-bottom: 30px;
+  }
+
+  .dinnerpage__line-break {
+    margin-top: 50px;
+    margin-bottom: 35px;
   }
 }
 /* ====== media query iPhone 6/7/8 ====== */
