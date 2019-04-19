@@ -52,7 +52,8 @@
 /* Drinks--Component */
 
 .drinks--alcoholicDrinks{
-  margin-left: -2%;
+  margin-top:160px;
+  margin-right: 35%;
 }
 
 .drinks-image{
@@ -74,15 +75,17 @@
 }
 .drinks--vodkaMenu{
   font-size: 24px;
-  font-weight: bold;
+  /* font-family: 'Lato', sans-serif; */
+  
   line-height: 0.63;
   color: #ee343c;
   margin-left: 16%;
 }
 .drinks--vodkaDescription{
   width: 547px;
-  height: 120px;
+  height: 50px;
   font-family: 'Lato', sans-serif;
+  font-weight: bold;
   margin-left: 16%;
 }
 .drinks--vodkaFlavors1{
@@ -97,8 +100,7 @@
   letter-spacing: 2.4px;
   color: #0e0e0e;
   list-style: none;
-  margin-left: 43%;
-  margin-top: -11%;
+ 
 }
 .drinks--vodkaFlavors2{
   width: 213px;
@@ -112,7 +114,7 @@
   letter-spacing: 2.4px;
   color: #0e0e0e;
   list-style: none;
-  margin-top: -18%;
+  margin-bottom:;
 }
 
 .drinks-vodkaPrices{
@@ -127,8 +129,8 @@
   letter-spacing: 2.3px;
   color: #0e0e0e;
   list-style: none;
-  margin-left: 43%;
-  margin-top: -19%;
+  margin-top: 
+  
 }
 
 .drinks--vodkaFlights{
@@ -143,7 +145,7 @@
   letter-spacing: 2.3px;
   color: #0e0e0e;
   list-style: none;
-  margin-top: -30%;
+ 
 }
 
 .drinks--nonAlcoholicDrinks--title{
@@ -168,13 +170,19 @@
   
 }
 .drinks--vodkaAllItems{
-  display: grid;
-  grid-template-columns: .2fr .2fr;
-  grid-template-rows: 200px 200px;
+  width: 70%;
+  height: 400%;
+  display: flex;
+  flex-direction:column;
+  flex-flow:row wrap;
+  flex-wrap: wrap;
+  margin-left: 13%;
+  
+
   
 }
 .drinks--nonAlcoholicDrinks--mainContainer{
-  margin-top: -628px;
+  margin-top: -567px;
   margin-left: 727px;
   border-left: 1px solid black;
 }
