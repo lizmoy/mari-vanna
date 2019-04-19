@@ -7,7 +7,7 @@ import Time from '../images/icons/time.png'
 class IconBar extends Component {
   render() {
     return (
-      <div className="iconbar">
+      <div className="iconbar" id="about">
         <div className="iconbar__address--div">
             <img src={Location} alt=""/>
             <h3 className="iconbar__h3">ADDRESS</h3>
