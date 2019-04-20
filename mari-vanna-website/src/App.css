@@ -254,6 +254,58 @@
   font-weight: normal;
 }
 
+.header__mobilenav {
+  display: none;
+}
+
+@media only screen and (max-width: 375px) {
+
+  .header__mobilenav {
+    display: inline-block;
+  }
+
+  .header__atag--mobile-home, .header__atag--mobile-menu,.header__atag--mobile-about, .header__atag--mobile-reservations {
+    height: 43px;
+    width: 90%;
+    font-size: 22px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'p22-underground', sans-serif;
+  }
+
+  .header__atag--mobile-home, .header__atag--mobile-menu,.header__atag--mobile-about {
+    border-bottom: 0.1px solid rgba(255,255,255,0.9);
+  }
+
+  .header_nav--content-on {
+    line-height: 2;
+    width: 100%;
+    left: 0;
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 172px;
+    background-color: #4c4a4a;
+  }
+
+  .header_nav--content-off {
+    display: none;
+  }
+
+  .hamburger {
+    display: inline-block;
+    width: 30px;
+    height: 20px;
+    margin-right: 20px;
+  }
+
+}
+
+
+
+
 /* ======== Dessert ========= */
 
 
@@ -849,11 +901,7 @@ img{
 /* ====== media query iPhone 6/7/8 ====== */
 
 
-
-/* ====== media query iPhone 6/7/8 Drinks Component ====== */
-
 @media only screen and (max-width: 375px){
-
 
 .drinks--alcoholicDrinks{
   margin-top:0;
@@ -868,18 +916,21 @@ img{
 .drinks--mainTitle{
   margin-left: 26%;
 }
+
 .drinks--vodkaMenu{
   font-size: 24px;
   line-height: 0.63;
   color: #ee343c;
   margin-left: 11%;
 }
+
 .drinks--vodkaDescription{
   height: 15px;
   font-family: 'Lato', sans-serif;
   font-weight: bold;
   margin-left:8%;
 }
+
 .drinks--vodkaFlavors1{
   height: 112px;
   font-family: 'Lato', sans-serif;
@@ -904,7 +955,6 @@ img{
   letter-spacing: 2.4px;
   color: #0e0e0e;
   list-style: none;
-  margin-bottom:;
 }
 
 .drinks-vodkaPrices{
@@ -918,8 +968,6 @@ img{
   letter-spacing: 2.3px;
   color: #0e0e0e;
   list-style: none;
- 
-  
 }
 
 .drinks--vodkaFlights{
@@ -933,7 +981,6 @@ img{
   letter-spacing: 2.3px;
   color: #0e0e0e;
   list-style: none;
- 
 }
 
 .drinks--nonAlcoholicDrinks--title{
@@ -943,6 +990,7 @@ img{
   margin-left: 18%;
   margin-top: -7%;
 }
+
 .drinks--nonAlcoholicDrinks--items{
   height: 575px;
   font-family: 'Lato', sans-serif;
@@ -977,4 +1025,3 @@ img{
   margin-top: 11%;
 }
 }
-/* ====== media queries iPhone 6/7/8 Drinks Component ======= */
