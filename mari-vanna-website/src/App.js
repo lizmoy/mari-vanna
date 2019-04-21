@@ -9,12 +9,14 @@ import Dinner from './components/Dinner'
 import Dessert from './components/Dessert'
 import Drinks from './components/Drinks'
 import Careers from './components/Careers'
+import ScrollToTop from './components/ScrollToTop';
 
 class App extends Component {
   render() {
     return (
 
          <Router>
+           <ScrollToTop>
           <div className="App">
             <Header />
              <main>
@@ -27,6 +29,7 @@ class App extends Component {
             </main>
             <Footer />
           </div>
+          </ScrollToTop>
         </Router>
 
     );

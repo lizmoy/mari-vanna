@@ -8,29 +8,36 @@ import TwitterIcon from '../images/icons/Twitter.png'
 class Footer extends Component {
     render() {
     return (
-      
-        <div className="footer">
+      <div className="footer">
         <nav className='footer__navbar'>
-            <a href='#'>NEWS</a>
-            <a href='#'>PRESS</a>
-            <a href='#'>OUR GUESTS</a> 
-            <Link className="footer__careers" to="/careers">CAREERS</Link>  
+          <a href='#'>NEWS</a>
+          <a href='#'>PRESS</a>
+          <a href='#'>OUR GUESTS</a> 
+          <Link className="footer__careers" to="/careers">CAREERS</Link>  
         </nav>
+
         <div className='footer__followus'>
-        <div  href='#'>FOLLOW US</div>
-        <div className="footerIcons">
-        <div className="footericon__facebook">
-        <a href='https://www.facebook.com/MariVannaNYC/'><img src={facebookIcon} alt="" /></a>
+          <div href='#'>FOLLOW US</div>
+            <div className="footerIcons">
+              <div className="footericon__facebook">
+                <a href='https://www.facebook.com/MariVannaNYC/' target='blank'>
+                <img src={facebookIcon} alt="fb-icon" />
+                </a>
+              </div>
+              <div className="footericon__instagram">
+                <a href='https://www.instagram.com/explore/locations/465545001/mari-vanna-nyc/?hl=en' target='blank'>
+                <img src={InstagramIcon} alt="ig-icon" />
+                </a>
+              </div>
+              <div className="footericon__twitter">
+                <a href='https://twitter.com/marivannany?lang=en' target='blank'>
+                <img src={TwitterIcon} alt="twitter-icon" />
+                </a>
+              </div>
+          </div>
         </div>
-        <div className="footericon__instagram">
-        <a href='https://www.instagram.com/explore/locations/465545001/mari-vanna-nyc/?hl=en'><img src={InstagramIcon} alt="" /></a>
-        </div>
-        <div className="footericon__twitter">
-        <a href='https://twitter.com/marivannany?lang=en'><img src={TwitterIcon} alt="" /></a>
-        </div>
-        </div>
-       </div>
-       </div>
+
+      </div>
     )
   }
 }
