@@ -8,18 +8,14 @@
 
 .career--careerOportunitiesTitle {
   width: 544px;
-  height: 61px;
+  /* height: 61px; */
   font-family: 'Lato', sans-serif;
   font-size: 30px;
   font-weight: 600;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: normal;
   letter-spacing: 0.1px;
   text-align: center;
-  color: var(--black);
-  display: inline;
-  margin-left: 33%;
+  color: black;
+  margin: 0 auto;
 }
 
 .career--careerOportunitiesParagraph{
@@ -773,11 +769,6 @@ img{
     margin-top: 5px;
   }
 
-  /* .iconbar__contact--div,
-  .iconbar__check--div {
-    justify-content: center;
-  } */
-
   #phone-number {
     margin-right: 50px;
   }
@@ -838,14 +829,23 @@ img{
     flex-direction: column-reverse
   }
 
+  .menunav {
+    margin-bottom: 20px;
+  }
+
   .menunav__lunch,
   .menunav__dinner,
   .menunav__dessert,
   .menunav__drinks {
+    color: white;
     font-size: 16px;
-    border: 3px solid black;
+    border: 2px solid white;
     margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 8px;
+  }
+
+  .menunav__lunch{
+    margin-top: 30px;
   }
 
   .lunchpage__menu {
@@ -873,155 +873,174 @@ img{
     margin-bottom: 35px;
   }
 
-
-
   .footer{
     display: flex;
-    margin-top: 10px;
+    height: 40px;
   }
 
   .footer__navbar {
     display: flex;
     margin-left: 10px;
+    margin-top: 17px;
    }
 
   .footer__followus{
     margin: 15px 10px 0 50px;
   }
 
-  a { 
-    font-size: 5px;
-    margin: 0 10px 0 0;
+  .follow-us {
+    display: none;
   }
 
+  .icon {
+    margin-top: 5px;
+    width: 12px;
+  }
 
-
+  a { 
+    font-size: 8px;
+    margin: 0 10px 0 0;
+  }
 }
 
 /* ====== media query iPhone 6/7/8 ====== */
 
 
-@media only screen and (max-width: 375px){
+@media only screen and (max-width: 375px) {
 
-.drinks--alcoholicDrinks{
-  margin-top:0;
-  margin-right: 0;
-}
+  .drinks--alcoholicDrinks{
+    margin-top:0;
+    margin-right: 0;
+  }
 
-.drinks-image{
-  width: 375px;
-  height: 212px;
-}
+  .drinks-image{
+    width: 375px;
+    height: 212px;
+  }
 
-.drinks--mainTitle{
-  margin-left: 26%;
-}
+  .drinks--mainTitle{
+    margin-left: 26%;
+  }
 
-.drinks--vodkaMenu{
-  font-size: 24px;
-  line-height: 0.63;
-  color: #ee343c;
-  margin-left: 11%;
-}
+  .drinks--vodkaMenu{
+    font-size: 24px;
+    line-height: 0.63;
+    color: #ee343c;
+    margin-left: 11%;
+  }
 
-.drinks--vodkaDescription{
-  height: 15px;
-  font-family: 'Lato', sans-serif;
-  font-weight: bold;
-  margin-left:8%;
-}
+  .drinks--vodkaDescription{
+    height: 15px;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    margin-left:8%;
+  }
 
-.drinks--vodkaFlavors1{
-  height: 112px;
-  font-family: 'Lato', sans-serif;
-  font-size: 20px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.5;
-  letter-spacing: 2.4px;
-  color: #0e0e0e;
-  list-style: none;
- 
-}
-.drinks--vodkaFlavors2{
-  height: 140px;
-  font-family: 'Lato', sans-serif;
-  font-size: 20px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.5;
-  letter-spacing: 2.4px;
-  color: #0e0e0e;
-  list-style: none;
-}
+  .drinks--vodkaFlavors1{
+    height: 112px;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: 2.4px;
+    color: #0e0e0e;
+    list-style: none;
+  
+  }
+  .drinks--vodkaFlavors2{
+    height: 140px;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: 2.4px;
+    color: #0e0e0e;
+    list-style: none;
+  }
 
-.drinks-vodkaPrices{
-  height: 45px;
-  font-family: 'Lato', sans-serif;
-  font-size: 15px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.35;
-  letter-spacing: 2.3px;
-  color: #0e0e0e;
-  list-style: none;
-}
+  .drinks-vodkaPrices{
+    height: 45px;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.35;
+    letter-spacing: 2.3px;
+    color: #0e0e0e;
+    list-style: none;
+  }
 
-.drinks--vodkaFlights{
-  height: 54px;
-  font-family: 'Lato', sans-serif;
-  font-size: 15px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.35;
-  letter-spacing: 2.3px;
-  color: #0e0e0e;
-  list-style: none;
-}
+  .drinks--vodkaFlights{
+    height: 54px;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.35;
+    letter-spacing: 2.3px;
+    color: #0e0e0e;
+    list-style: none;
+  }
 
-.drinks--nonAlcoholicDrinks--title{
-  font-size: 24px;
-  font-weight: bold;
-  color: #ee343c;
-  margin-left: 18%;
-  margin-top: -7%;
-}
+  .drinks--nonAlcoholicDrinks--title{
+    font-size: 24px;
+    font-weight: bold;
+    color: #ee343c;
+    margin-left: 18%;
+    margin-top: -7%;
+  }
 
-.drinks--nonAlcoholicDrinks--items{
-  height: 575px;
-  font-family: 'Lato', sans-serif;
-  font-size: 20px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.5;
-  letter-spacing: 2.9px;
-  color: #060606;
-  list-style: none;
-  margin-left: -73%;
-  margin-top:44%;
-}
+  .drinks--nonAlcoholicDrinks--items{
+    height: 575px;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: 2.9px;
+    color: #060606;
+    list-style: none;
+    margin-left: -73%;
+    margin-top:44%;
+  }
 
-.drinks--vodkaAllItems{
-  width: 70%;
-  height: 400%;
-  display: flex;
-  flex-direction:column;
-  flex-flow:row wrap;
-  flex-wrap: wrap;
-  margin-left: 13%;
-}
+  .drinks--vodkaAllItems{
+    width: 70%;
+    height: 400%;
+    display: flex;
+    flex-direction:column;
+    flex-flow:row wrap;
+    flex-wrap: wrap;
+    margin-left: 13%;
+  }
 
-.drinks--nonAlcoholicDrinks--mainContainer{
-  width: 70%;
-  height: 400%;
-  display: flex;
-  margin-left: 15%;
-  border-left: none;
-  margin-top: 11%;
-}
+  .drinks--nonAlcoholicDrinks--mainContainer{
+    width: 70%;
+    height: 400%;
+    display: flex;
+    margin-left: 15%;
+    border-left: none;
+    margin-top: 11%;
+  }
+
+  .career--banner {
+    width: 100%;
+    height: 120px;
+  }
+
+  .career--careerOportunitiesTitle {
+    width: 80%;
+  }
+
+  .career--careerOportunitiesParagraph {
+    width: 80%;
+  }
+
 }

@@ -17,21 +17,21 @@ class Footer extends Component {
         </nav>
 
         <div className='footer__followus'>
-          <div href='#'>FOLLOW US</div>
+          <div className="follow-us" href='#'>FOLLOW US</div>
             <div className="footerIcons">
               <div className="footericon__facebook">
                 <a href='https://www.facebook.com/MariVannaNYC/' target='blank'>
-                <img src={facebookIcon} alt="fb-icon" />
+                <img className="icon" src={facebookIcon} alt="fb-icon" />
                 </a>
               </div>
               <div className="footericon__instagram">
                 <a href='https://www.instagram.com/explore/locations/465545001/mari-vanna-nyc/?hl=en' target='blank'>
-                <img src={InstagramIcon} alt="ig-icon" />
+                <img className="icon" src={InstagramIcon} alt="ig-icon" />
                 </a>
               </div>
               <div className="footericon__twitter">
                 <a href='https://twitter.com/marivannany?lang=en' target='blank'>
-                <img src={TwitterIcon} alt="twitter-icon" />
+                <img className="icon" src={TwitterIcon} alt="twitter-icon" />
                 </a>
               </div>
           </div>
