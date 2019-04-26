@@ -1,7 +1,7 @@
 # mari-vanna
 A spec redesign of Mari Vanna New York's website. 
 
-Dev Team: Daniel Kuang, Liz Moy, Galbert O'Neil, & Maddy Rombes
+Dev Team: Daniel Kuang, Liz Moy, Galbert O'Neil, & Maddy Rombes<br/>
 UX Design Team: Trevolon Jainarain, Marysia Klopotowski, Janet L. Moran, & Juan Pablo Rahn
 
 [Their current website](http://www.marivanna.ru/ny/)
