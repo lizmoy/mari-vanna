@@ -1,5 +1,6 @@
 # mari-vanna
 A spec redesign of Mari Vanna New York's website. 
+
 Dev Team: Daniel Kuang, Liz Moy, Galbert O'Neil, & Maddy Rombes
 UX Design Team: Trevolon Jainarain, Marysia Klopotowski, Janet L. Moran, & Juan Pablo Rahn
 
@@ -13,7 +14,9 @@ Images from our design studio, an iterative process through which we envisioned 
 
 ## Hi-fi Wireframes
 A sampling of wireframes for web & mobile (iPhone 6/7/8)
+
 ![Hi-fi Wireframe](/readme_files/mv_hifi-wireframes.png)
+
 ![Responsive](/readme_files/mv_responsive.png)
 
 ## Technologies Used
