@@ -10,9 +10,10 @@ export default () => {
             <Carousel 
                 autoPlay
                 infiniteLoop={true}
-                interval={3000}
+                interval={4000}
                 showThumbs={false}
-                showStatus={false}>
+                showStatus={false}
+                stopOnHover={false}>
                 <div className="gallery__image"><img src={home1} alt="gallery" /></div>
                 <div className="gallery__image"><img src={home2} alt="gallery" /></div>
                 <div className="gallery__image"><img src={home3} alt="gallery" /></div>
