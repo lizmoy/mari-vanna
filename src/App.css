@@ -214,6 +214,7 @@
   display: flex;
   width: 50%;
   height: 476px;
+  margin: 0
 }
 
 /* HEADER  */
@@ -455,6 +456,8 @@
   width: 80%;
   text-align: center;
   color: black;
+  margin-top: 30px;
+  margin-bottom: 35px;
 }
 
 .dinnerpage__menu-item-subtitle-hot,
